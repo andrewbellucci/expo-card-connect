@@ -81,7 +81,7 @@ android {
 
 repositories {
   mavenCentral()
-  flatdir {
+  flatDir {
     dirs 'libs'
   }
 }
