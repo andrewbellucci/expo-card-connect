@@ -1,0 +1,10 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "expo-card-connect": ["../src/index"],
+      "expo-card-connect/*": ["../src/*"]
+    }
+  }
+}

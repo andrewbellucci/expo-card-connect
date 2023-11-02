@@ -1,0 +1,9 @@
+{
+  "platforms": ["ios", "android", "web"],
+  "ios": {
+    "modules": ["ExpoCardConnectModule"]
+  },
+  "android": {
+    "modules": ["expo.modules.cardconnect.ExpoCardConnectModule"]
+  }
+}
