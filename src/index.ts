@@ -10,7 +10,7 @@ export const generateTokenForCard = (
   cardNumber: string,
   expiryDate: string,
   cvv: string,
-  promise: Promise<any>,
+  promise: (err: any, token: string) => unknown,
 ) => {
   return ExpoCardConnectModule.generateTokenForCard(
     cardNumber,
