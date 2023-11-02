@@ -87,7 +87,7 @@ repositories {
 }
 
 dependencies {
-  implementation(name: 'ccconsumersdk-consumerSwiper-release', ext: 'aar')
+  compile(name: 'ccconsumersdk-consumerSwiper-release', ext: 'aar')
   implementation project(':expo-modules-core')
   implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:${getKotlinVersion()}"
 }
